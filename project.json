@@ -11,6 +11,7 @@
         "Transformations.fs",
         "Transitions.fs",
         "Display.fs",
+        "Input.fs",
         "Program.fs"
       ]
     }

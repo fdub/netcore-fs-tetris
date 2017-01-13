@@ -9,7 +9,7 @@ let random = System.Random()
 let moveRight (state : State) = { state with Point = state.Point @+ toPoint 1 0 }
 let moveLeft (state : State) = { state with Point = state.Point @+ toPoint -1 0 }
 let moveDown (state : State) = { state with Point = state.Point @+ toPoint 0 1 }
-let moveUp (state : State) = { state with Point = state.Point @+ toPoint 0 -1 }
+
 let rotateBlock (state : State) = 
     { state with Block = rotate state.Block
                  Point = state.Point @+ rotateOffset state.Block }

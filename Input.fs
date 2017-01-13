@@ -53,7 +53,7 @@ let readKey () =
 
 let tickTimer (timeout : float) =
     timer.Change(
-        TimeSpan.FromMilliseconds 0., 
+        TimeSpan.FromMilliseconds (timeout / 5.), 
         TimeSpan.FromMilliseconds timeout
     ) |> ignore
     

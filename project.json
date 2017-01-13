@@ -8,8 +8,8 @@
       "includeFiles": [
         "Model.fs",
         "Blocks.fs",
-        "Init.fs",
         "Transformations.fs",
+        "Transitions.fs",
         "Display.fs",
         "Program.fs"
       ]

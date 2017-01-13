@@ -5,7 +5,7 @@ open Fdub.Tetris.Model
 let private renderPixel = function | false -> "  " | true -> "██"
 let private renderRow (pixels : Pixel list) =
     pixels
-    |> List.fold (fun result pixel -> result + (renderPixel pixel.Pixel)) ""
+    |> List.fold (fun result pixel -> result + (renderPixel pixel.Value)) ""
 
 let show grid =
     System.Console.Clear()
